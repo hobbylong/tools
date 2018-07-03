@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+<<<<<<< HEAD
+<DivLayout_Vertical  android:layout_width="fill_parent"  android:layout_height="fill_parent"    android:background="#FFFFFF"   android:orientation="vertical"  android:gravity="">
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FB6F2C"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/titleTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="可加倍套餐"   android:textSize="16sp" android:textColor="#C07E53"   android:gravity="center" >
+</TextView>
+<Button   android:id="@+id/mypackageButton" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="我的套餐"   android:textSize="16sp" android:textColor="#FFFFFF"   android:background="#FB6F2C"  >
+</Button>
+<DivLayout_Horizon  android:layout_width="wrap_content"  android:layout_height="wrap_content"    android:background="#ffffff"  android:orientation="horizontal"  >
+</DivLayout_Horizon>
+</DivLayout_Horizon>
+<DivLayout_Vertical  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="vertical"  android:gravity="">
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+</DivLayout_Horizon>
+<ListLayout_LeftRight  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#ffffff"  android:orientation="horizontal"  >
+</ListLayout_LeftRight>
+=======
+<DivLayout_Vertical  android:layout_width="fill_parent"  android:layout_height="fill_parent"    android:background="#ffffff"  android:orientation="vertical"  >
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FB6F2C"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/titleTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="可加办套餐"   android:textSize="16sp" android:textColor="#FFFFFF"   android:gravity="center" >
+</TextView>
+<Button   android:id="@+id/mypackageButton" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="我的套餐"   android:textSize="16sp" android:textColor="#FFFFFF"   android:background="#FB6F2C"  >
+</Button>
+</DivLayout_Horizon>
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+</DivLayout_Horizon>
+<ListLayout  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#ffffff"  android:orientation="horizontal"  >
+<DivLayout_Vertical  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="vertical"  android:gravity="">
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#ffffff"  android:orientation="horizontal"  >
+<TextView   android:id="@+id/moneyTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="Y60元"   android:textSize="16sp" android:textColor="#FB6F2C"   android:gravity="center" >
+</TextView>
+<DivLayout_Horizon  android:layout_width="wrap_content"  android:layout_height="wrap_content"    android:background="#ffffff"  android:orientation="horizontal"  >
+<CheckBox   android:id="@+id/checkCheckBox" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="check"   android:textSize="16sp" android:textColor="#252525"   >
+</CheckBox>
+<TextView   android:id="@+id/titlevalueTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="2013秋天"   android:textSize="16sp" android:textColor="#202020"   android:gravity="center" >
+</TextView>
+</DivLayout_Horizon>
+</DivLayout_Horizon>
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<DivLayout_Horizon  android:layout_width="wrap_content"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/monthtitleTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="周期"   android:textSize="16sp" android:textColor="#A4A4A4"   android:gravity="center" >
+</TextView>
+<TextView   android:id="@+id/monthvalueTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="6个月"   android:textSize="16sp" android:textColor="#2A2A2A"   android:gravity="center" >
+</TextView>
+</DivLayout_Horizon>
+</DivLayout_Horizon>
+</DivLayout_Vertical>
+</ListLayout>
+<DivLayout_Vertical  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#ffffff"  android:orientation="vertical"  >
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/totaltitleTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="总计"   android:textSize="16sp" android:textColor="#2C2C2C"   android:gravity="center" >
+</TextView>
+<TextView   android:id="@+id/toalvalueTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="123"   android:textSize="16sp" android:textColor="#9D2634"   android:gravity="center" >
+</TextView>
+<Button   android:id="@+id/doitButton" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="办理"   android:textSize="16sp" android:textColor="#FFFFFF"   android:background="#FB6F2C"  >
+</Button>
+</DivLayout_Horizon>
+<DivLayout_Horizon  android:layout_width="fill_parent"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<DivLayout_Vertical  android:layout_width="wrap_content"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/shouyeTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="首页"   android:textSize="16sp" android:textColor="#2A2A2A"   android:gravity="center" >
+</TextView>
+</DivLayout_Vertical>
+<DivLayout_Vertical  android:layout_width="wrap_content"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/packageTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="套餐"   android:textSize="16sp" android:textColor="#2A2A2A"   android:gravity="center" >
+</TextView>
+</DivLayout_Vertical>
+<DivLayout_Vertical  android:layout_width="wrap_content"  android:layout_height="wrap_content"    android:background="#FFFFFF"   android:orientation="horizontal"  android:gravity="">
+<TextView   android:id="@+id/myTextView" android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="我的"   android:textSize="16sp" android:textColor="#2A2A2A"   android:gravity="center" >
+</TextView>
+</DivLayout_Vertical>
+</DivLayout_Horizon>
+>>>>>>> 141a12c7031b19f7ad7fb0af62925724bfc2a729
+</DivLayout_Vertical>
+</DivLayout_Vertical>
+</LinearLayout>
+
+
+
+

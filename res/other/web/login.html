@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		
+		<style type="text/css">
+	
+	
+
+.titlebar_fixed {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 44px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 1px rgba(0,0,0,.85);
+  
+   
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+.backbtn {
+	font-weight: 400;
+    
+    line-height: 1;
+    
+    font-size: 24px;
+   
+    z-index: 20;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+     float: left;
+     position: relative;
+     color: #007aff;
+}
+
+
+.backbtn:before {
+    content:'\00AB';
+}
+
+
+
+.titleTxt {
+	
+	right: 40px;
+    left: 40px;
+    width: auto;
+	
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    margin: 0 -10px;
+    text-align: center;
+    color: #000;
+}
+
+
+
+
+
+.content-absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+
+/*
+.mui-table-view-relative:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    
+    height: 3px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #FF0000;
+   
+}
+
+
+.mui-table-view-relative:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #FF0000;
+}*/
+
+
+/*.mui-table-view-relative:first-child{
+    margin-top: 11px;
+}*/
+
+.mui-table-view-relative {
+    position:relative;
+    top: 30px;
+    list-style: none;
+    background-color: #FF0000;
+}
+
+
+
+
+
+
+.mui-table-view-cell-relative {
+    position: relative;
+    overflow: hidden;
+    padding: 11px 15px;
+       padding-right: 65px;
+    -webkit-touch-callout: none;
+}
+
+.mui-table-view-cell-relative:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+
+
+
+
+.mui-table-view-cell>a:not(.mui-btn) {
+    margin-right: -65px;
+}
+
+.mui-table-view-cell>a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: -11px -15px;
+    padding: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+}
+a {
+    text-decoration: none;
+    color: #007aff;
+}
+a {
+    background: 0 0;
+}
+
+.mui-navigate-right:after {
+    right: 15px;
+    content: '\e583';
+}
+.mui-navigate-right:after {
+    font-family: Muiicons;
+    font-size: inherit;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: #bbb;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+		</style>
+		<title></title>
+	</head>
+	<body>
+
+	
+		
+		<header class="titlebar_fixed">
+			<a class="backbtn"></a>
+			<h1 class="titleTxt">找回密码</h1>
+		</header>
+		
+		
+		<!--<div class="content-absolute">-->
+		
+		
+					<ul class="mui-table-view-relative">
+							<li class="mui-table-view-cell-relative">
+								<a id="rate" class="mui-navigate-right">评分鼓励</a>
+							</li>
+							<li class="mui-table-view-cell-relative">
+								<a id="share" class="mui-navigate-right">分享推荐</a>
+							</li>
+							
+						</ul>
+						
+					
+			
+		<!--</div>-->
+		
+		
+		
+		
+	</body>
+</html>

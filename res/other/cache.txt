@@ -1,0 +1,13 @@
+#Update 'codeFilePath' value
+#Thu Jun 14 14:20:54 CST 2018
+\u53D8\u91CF\u540D=0
+SimpleRespondJson={"returnCode"\: "0","returnData"\: {"head"\: { "ret_msg"\: "\u6210\u529F", "ret_errcode"\: "000000"}, "body"\:{} }}
+\u7C7B\u578B=2
+codeFilePath=/Users/admin/Documents/GitHub/QuotationMarks3/res/src/web
+\u5907\u6CE8=3
+compomentProjectAddress=/Users/admin/Documents/GitHub/QuotationMarks3/res/other/mobile-android
+recentUseColor=\#B5B5B5,\#ABABAB,\#F3F3F3,\#4C4C4C,\#169BD5,\#7878D3,
+picPath=/Users/admin/Documents/GitHub/QuotationMarks3/res/pic
+\u4E2D\u6587\u540D=1
+projectPath=/Users/admin/Documents/GitHub/QuotationMarks3/res
+docPath=/Users/admin/Documents/GitHub/QuotationMarks3/res/InterfaceDoc/wordTableToJaveObject.doc

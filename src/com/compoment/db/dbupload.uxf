@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.0">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>20</x>
+      <y>290</y>
+      <w>400</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>MessageSentTable
+--
+ MESSAGE_SENT_ID = "snt_id"; // 留言发送记录id
+--
+ MESSAGE_RECORD_ID = "rcd_id"; // 留言文件id
+--
+TIME = "snt_time"; // 发送时间字符串
+--
+RECEIVER_NUMBER = "rcver_num"; // 接收者号码
+--
+SENDER_NUMBER = "snder_num"; // 发送者号码
+--
+CODE = "code"; // 发送状态：0发送成功，1发送失败
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>450</x>
+      <y>280</y>
+      <w>610</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>MessageUploadedTable
+--
+MESSAGE_RECORD_ID = "msg_rcd_id"; // 留言录制ID
+--
+ MESSAGE_SENT_ID = "msg_snt_id"; // 留言发送ID
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>50</x>
+      <y>70</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>规则：
+1.左中文右英文
+2.首字母大写
+3.第一行为表名，且中文中要带“_表”字
+4.第二行为ID行
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>460</x>
+      <y>20</y>
+      <w>430</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>文件上传部分_表:FileUploadPart
+--
+文件ID:FileId
+--
+已发送块数:BlockCount
+--
+发送者号码:SenderNumber
+--
+收件人号码:ReceiverNumber
+--
+DURATION: "duration"; 音频 视频文件播放时间长度
+--
+TYPE = "type";文件的类型（音频or视频）
+--
+ PATH = "path";//文件在手机的存储路径
+--
+ 发送ID:SendId
+--
+备注：新上传通过file_id查不到结果，上传部分通过file_id查得到结果</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

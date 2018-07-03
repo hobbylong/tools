@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>230</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>130</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;70</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>100</x>
+      <y>220</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>规则：
+1.左中文右英文
+2.首字母大写
+3.第一行为表名，且中文中要带“_表”字
+4.第二行为ID行
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>460</x>
+      <y>290</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>DBTableDescribe</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>460</x>
+      <y>110</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>DBContentResolver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>310</x>
+      <y>0</y>
+      <w>510</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>真正的数据表建立 插入 删除 查询 都是在extends ContentProvider 类内实现
+利用ContentProvider规避数据库开关管理生命周期，避免一系列问题．
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>460</x>
+      <y>200</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>DBContentProvider</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>640</x>
+      <y>210</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>DatabaseHelper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>370</y>
+      <w>370</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>副号信息_表:FuHao
+--
+联系人ID:ContactId
+--
+联系人头像:PhotoId
+--
+联系人名字:ContactName
+--
+联系人号码:ContactNumber
+--
+副号CallingId:CallingId
+--
+副号名字:FuHaoName
+--
+副号号码:FuHaoNumber
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

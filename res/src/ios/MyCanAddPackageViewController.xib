@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCanAddPackageViewController">
+            <connections>
+<<<<<<< HEAD
+                        <outlet property="mypackageButton" destination="YkH-nm-IP9" id="ycg-8u-kx6"/>
+                        <outlet property="titleTextView" destination="c7x-wi-fN6" id="4Ft-sw-6NJ"/>
+                <outlet property="view" destination="Bk2-Mq-hRQ" id="czY-Uh-mzY"/>
+=======
+                        <outlet property="myTextView" destination="jAB-fl-bDh" id="smj-Ap-pzb"/>
+                        <outlet property="packageTextView" destination="u08-Db-uTl" id="m9Y-6M-qP4"/>
+                        <outlet property="shouyeTextView" destination="SBV-9k-XNl" id="wa3-oH-66S"/>
+                        <outlet property="doitButton" destination="IoL-3Z-JVk" id="zqC-uh-BrZ"/>
+                        <outlet property="toalvalueTextView" destination="o9n-1p-iOs" id="k7z-i8-M2x"/>
+                        <outlet property="totaltitleTextView" destination="NA3-hZ-nHh" id="vB9-8R-8hp"/>
+                        <outlet property="monthvalueTextView" destination="jQ4-s5-RJe" id="YvK-5D-vUP"/>
+                        <outlet property="monthtitleTextView" destination="nDQ-vM-gyT" id="eEp-Wc-dNc"/>
+                        <outlet property="moneyTextView" destination="Bng-Gj-9c3" id="2cT-ss-xgG"/>
+                        <outlet property="titlevalueTextView" destination="IAY-I4-4Y0" id="tOC-om-8nV"/>
+                        <outlet property="checkCheckBox" destination="kTe-sN-ftf" id="dwP-AP-96w"/>
+                        <outlet property="checkCheckBoxCover" destination="LDF-f1-6i9" id="K8c-tI-vGY"/>
+                        <outlet property="mypackageButton" destination="bho-KM-4az" id="JeA-Rl-KCK"/>
+                        <outlet property="titleTextView" destination="pMw-Av-kE1" id="glv-m3-CH4"/>
+                <outlet property="view" destination="VIg-NC-no2" id="kKc-PT-PjJ"/>
+>>>>>>> 141a12c7031b19f7ad7fb0af62925724bfc2a729
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+
+
+
+<<<<<<< HEAD
+                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="Bk2-Mq-hRQ">
+<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rea-Bk-pVt">
+<rect key="frame" x="6" y="53" width="298" height="412"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YvH-9X-7tA">
+<rect key="frame" x="6" y="4" width="289" height="33"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+=======
+                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" contentMode="scaleToFill" id="VIg-NC-no2">
+<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5p-kh-w5i">
+<rect key="frame" x="7" y="474" width="296" height="71"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5SF-DE-RPh">
+<rect key="frame" x="7" y="41" width="285" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mnw-Lo-ZOy">
+<rect key="frame" x="163" y="7" width="38" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAB-fl-bDh">
+                                        <rect key="frame" x="-6" y="6" width="32" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.16470589" green="0.16470589" blue="0.16470589" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QgV-N2-PwI">
+<rect key="frame" x="74" y="5" width="45" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="套餐" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u08-Db-uTl">
+                                        <rect key="frame" x="83" y="6" width="32" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.16470589" green="0.16470589" blue="0.16470589" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AiW-3d-hJQ">
+<rect key="frame" x="6" y="5" width="36" height="16"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首页" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBV-9k-XNl">
+                                        <rect key="frame" x="151" y="6" width="32" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.16470589" green="0.16470589" blue="0.16470589" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aSE-J9-Wav">
+<rect key="frame" x="4" y="4" width="288" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IoL-3Z-JVk">
+                                <rect key="frame" x="160" y="12" width="32" height="15"/>
+                                <color key="backgroundColor" red="0.9843137" green="0.43529412" blue="0.17254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="办理">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9n-1p-iOs">
+                                        <rect key="frame" x="85" y="14" width="33" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.6156863" green="0.14901961" blue="0.20392157" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="总计" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NA3-hZ-nHh">
+                                        <rect key="frame" x="33" y="13" width="32" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.17254902" green="0.17254902" blue="0.17254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjM-lI-YwN">
+<rect key="frame" x="6" y="98" width="298" height="370"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXl-KJ-uFo">
+<rect key="frame" x="5" y="6" width="288" height="71"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="puX-EZ-nIo">
+<rect key="frame" x="12" y="37" width="271" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8k-7r-aDi">
+<rect key="frame" x="5" y="4" width="119" height="19"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6个月" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQ4-s5-RJe">
+                                        <rect key="frame" x="143" y="7" width="43" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.16470589" green="0.16470589" blue="0.16470589" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDQ-vM-gyT">
+                                        <rect key="frame" x="68" y="6" width="32" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.6431373" green="0.6431373" blue="0.6431373" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIr-n7-qGK">
+<rect key="frame" x="5" y="4" width="278" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Y60元" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bng-Gj-9c3">
+                                        <rect key="frame" x="155" y="13" width="49" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.9843137" green="0.43529412" blue="0.17254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKP-am-sZ0">
+<rect key="frame" x="5" y="4" width="147" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2013秋天" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAY-I4-4Y0">
+                                        <rect key="frame" x="150" y="9" width="76" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.1254902" green="0.1254902" blue="0.1254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTe-sN-ftf">
+                                <rect key="frame" x="75" y="3" width="20" height="20"/>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+   <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title=""  backgroundImage="check.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="check" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LDF-f1-6i9">
+                                        <rect key="frame" x="97" y="3" width="48" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.14509805" green="0.14509805" blue="0.14509805" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+>>>>>>> 141a12c7031b19f7ad7fb0af62925724bfc2a729
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+<<<<<<< HEAD
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tdr-g7-PMI">
+<rect key="frame" x="10" y="7" width="298" height="42"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkH-nm-IP9">
+                                <rect key="frame" x="163" y="24" width="68" height="15"/>
+=======
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HLC-aQ-rnS">
+<rect key="frame" x="7" y="56" width="296" height="33"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                </subviews>
+                                <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+ <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23m-ig-E1D">
+<rect key="frame" x="4" y="5" width="302" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bho-KM-4az">
+                                <rect key="frame" x="167" y="28" width="64" height="15"/>
+>>>>>>> 141a12c7031b19f7ad7fb0af62925724bfc2a729
+                                <color key="backgroundColor" red="0.9843137" green="0.43529412" blue="0.17254902" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="我的套餐">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+<<<<<<< HEAD
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可加倍套餐" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7x-wi-fN6">
+                                        <rect key="frame" x="131" y="22" width="85" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.7529412" green="0.49411765" blue="0.3254902" alpha="1" colorSpace="calibratedRGB"/>
+=======
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可加办套餐" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMw-Av-kE1">
+                                        <rect key="frame" x="92" y="25" width="80" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> 141a12c7031b19f7ad7fb0af62925724bfc2a729
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9843137" green="0.43529412" blue="0.17254902" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1.0" green="1.0" blue="1.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+</objects>
+</document>
+

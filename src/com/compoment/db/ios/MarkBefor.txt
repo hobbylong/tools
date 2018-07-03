@@ -1,0 +1,8 @@
+@interface CRM_PictureInfo : NSManagedObject
+
+@property (nonatomic, retain) NSString * ownerAda;
+@property (nonatomic, retain) NSString * picName;
+@property (nonatomic, retain) NSString * serverID;
+@property (nonatomic, retain) NSNumber * status;
+@property (nonatomic, retain) NSString * terminalID;
+@property (nonatomic, retain) CRM_CustomerTimeLine *timeLine;

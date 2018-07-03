@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>170</x>
+      <y>100</y>
+      <w>240</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>1.新城市建设
+2.旧城改造
+   a.梳理
+   b.改造
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

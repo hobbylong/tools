@@ -1,0 +1,15 @@
+CREATE TABLE pedometer_rank
+  (
+     rank_date     VARCHAR(8) NOT NULL,
+     p_rank        INTEGER,
+     t_rank        INTEGER,
+     b_rank        INTEGER,
+     steps         INTEGER NOT NULL,
+     distance      VARCHAR2(50) DEFAULT '0',
+     pace          VARCHAR2(50) DEFAULT '0',
+     speed         VARCHAR2(50) DEFAULT '0',
+     calories      VARCHAR2(50) DEFAULT '0',
+     rating        INTEGER,
+     rating_tip    TEXT,
+     creation_date VARCHAR(10) NOT NULL
+  );

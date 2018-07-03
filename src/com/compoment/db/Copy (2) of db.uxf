@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>230</y>
+      <w>50</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>540</x>
+      <y>130</y>
+      <w>50</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;70</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>10</x>
+      <y>840</y>
+      <w>430</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes>产品	 购物车 	收藏_表: ProductShoppingcarStoreUp
+--
+产品ID:ProductId 
+--
+产品所属系列ID:ProductClassId
+--
+产品所属系列名字:ProductClassName
+--
+产品名字:ProductName
+--
+产品图片:ProductPic
+--
+产品缩略图:ProductSmalPic
+--
+产品简介:ProductInfo
+--
+产品规格:ProductStype
+--
+产品原价:ProductPrice
+--
+产品折扣率:ProductDiscount
+--
+产品优惠价:ProductPreferentialPrice
+--
+个人购货价:PersonBuyPrice
+--
+在线推荐价格:OnlineRecommendPrice
+--
+产品点数:ProductIntegrate
+--
+是否加入购物车:isInShoppingCar
+--
+是否收藏:isStoreUp 
+--
+购买单位:BuyUnit
+--
+允许的最大购买量:MaxBuyNumber
+--
+购买数量:BuyNumber 
+--
+库存数量:InventoryNumber
+--
+是否促销:isPromotion
+--
+促销活动编号:PromotionId
+--
+产品状态(0下架1上架):Status
+--
+是否为礼品:isGift
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>100</x>
+      <y>220</y>
+      <w>290</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>规则：
+1.左中文右英文
+2.首字母大写
+3.第一行为表名，且中文中要带“_表”字
+4.第二行为ID行
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>490</x>
+      <y>350</y>
+      <w>410</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>订单_表:OrderForm
+--
+订单号:OrderId
+--
+订单类型(个人购货or订单购货):OrderType
+--
+购货日期:OrderDate
+--
+订货人ID :OrderManID
+--
+卡号:CardNumber
+--
+订货人姓名:OrderManName
+--
+订货人身份:OrderManNameDegree
+--
+订货人电话:OrderManPhone
+--
+送货ID:DeliverId
+--
+产品总金额:ProductTotalPrice
+--
+产品总点数:ProductTotalIntegrate
+
+--
+运费:DeliverPrice
+--
+订单状态(已付款，未付款,已经发货,付款失败):OrderState
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>460</x>
+      <y>290</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>DBTableDescribe</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>460</x>
+      <y>110</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>DBContentResolver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>310</x>
+      <y>0</y>
+      <w>510</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>真正的数据表建立 插入 删除 查询 都是在extends ContentProvider 类内实现
+利用ContentProvider规避数据库开关管理生命周期，避免一系列问题．
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>10</x>
+      <y>560</y>
+      <w>450</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>送货_表:Deliver
+--
+送货ID:DeliverId
+--
+送货方式代码:DeliverWayCode
+--
+送货方式（专卖店提货Z，服务中心提货F，家居配送J）:DeliverWay
+--
+地址:DeliverAddress
+--
+卡号:CardNumber
+--
+收件人(姓名 名称):Name
+--
+移动电话:MobilePhone
+--
+固定电话:Phone
+--
+授权编码:AuthorCode
+--
+生效时间:EffectTime
+--
+身份证号:IDCardNumber
+--
+是否为默认地址:isDefaultAddress </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>460</x>
+      <y>200</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>DBContentProvider</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.State</type>
+    <coordinates>
+      <x>640</x>
+      <y>210</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>DatabaseHelper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>370</y>
+      <w>370</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>帐户信息_表:Account
+--
+帐户ID:AccountId
+--
+帐户余额:AccountBalance 
+--
+积分余额:IntegralBalance
+--
+帐户名字:UserName
+--
+帐户密码:PassWord
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>490</x>
+      <y>670</y>
+      <w>430</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>产品类_表:ProductClass
+--
+产品类所属:ProductClassInWhere
+--
+产品类ID:ProductClassId
+--
+产品类名字:ProductClassName
+--
+产品类图片:ProductClassPic
+--
+产品类名字图片:ProductClassNamePic
+--
+状态(0注销1正常):status
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>490</x>
+      <y>850</y>
+      <w>430</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>促销赠品_随货配送_订单产品_表:PromotionDeliverOrderProduct
+--
+订单号:OrderId
+--
+产品ID:ProductId 
+--
+产品名字:ProductName
+--
+产品图片:ProductPic
+--
+购买数量:BuyNumber 
+--
+可达数量:CanBuyNumber
+--
+产品价格:ProductPrice
+--
+产品规格:ProductStype 
+--
+产品点数:ProductIntegrate
+--
+产品总金额:ProductTotalPrice
+--
+是否促销赠品:isPromotionProduct
+--
+是否随货配送:isDeliverProduct</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
