@@ -1767,15 +1767,15 @@ public class CompomentDialog2 extends JFrame {
 		// 边缘图 黑白图
 		BufferedImage edgeBufImg = ImageUtil.imageToBufferedImage(edgeImage);
 
-		// BufferedImage bi2;
-		// File f2 = new
-		// File("/Users/admin/Documents/workspace/gg/pic/testCanny.png");
-		// try {
-		// ImageIO.write(edgeBufImg, "png", f2);
-		// } catch (IOException e) {
-		// // TODO Auto-generated catch block
-		// e.printStackTrace();
-		// }
+		 BufferedImage bi2;
+		 File f2 = new
+		 File("/Users/admin/Documents/workspace/testCanny.png");
+		 try {
+		 ImageIO.write(edgeBufImg, "png", f2);
+		 } catch (IOException e) {
+		 // TODO Auto-generated catch block
+		 e.printStackTrace();
+		 }
 
 		int rgbs[] = new int[w * h];
 		rgbs = edgeBufImg.getRGB(0, 0, w, h, rgbs, 0, w);
